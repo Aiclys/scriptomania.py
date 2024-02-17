@@ -1,7 +1,5 @@
 #!/usr/bin/env python3
 
-import string, random
-
 def gethostname(email_add):
     atposition = email_add.find("@")
     hostname = email_add[atposition+1:]
